@@ -1,0 +1,4 @@
+.env
+pylint
+__pycache__
+python_env

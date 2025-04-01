@@ -1,0 +1,21 @@
+{
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.autoIndent": "advanced",
+        "files.autoSave": "afterDelay",
+    },
+    "python.autoComplete.extraPaths": [
+        "src",
+    ],
+    "python.analysis.extraPaths": [
+        "src",
+    ],
+    "python.analysis.stubPath": ".vscode",
+    "files.exclude": {
+        "**/*.egg-info": true,
+        "**/__pycache__": true,
+        ".pytest_cache": true,
+    },
+    "debug.inlineValues": "on",
+}
