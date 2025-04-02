@@ -1,3 +1,4 @@
+# pylint: disable=missing-module-docstring
 from text import find_substring_by_regex
 
 if __name__ == "__main__":

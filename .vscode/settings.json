@@ -11,11 +11,15 @@
     "python.analysis.extraPaths": [
         "src",
     ],
-    "python.analysis.stubPath": ".vscode",
     "files.exclude": {
         "**/*.egg-info": true,
         "**/__pycache__": true,
         ".pytest_cache": true,
     },
-    "debug.inlineValues": "on",
+    "todo-tree.general.tags": [
+        "TODO",
+        "FIXME",
+        "BUG",
+        "REVIEW"
+    ]
 }
